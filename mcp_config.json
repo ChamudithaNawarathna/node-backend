@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "my-cube-generator": {
+      "command": "node",
+      "args": [
+        "C:/Users/YourName/GitHub Personal/node-backend/src/server.js"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

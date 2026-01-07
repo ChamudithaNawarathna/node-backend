@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/server.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/mcp",
+      "dest": "/api/server-vercel.js"
+    }
+  ]
+}
