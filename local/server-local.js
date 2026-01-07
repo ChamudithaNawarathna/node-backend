@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { generateCubeTool } from "./core/generateCube.js";
-import { saveFileTool } from "./core/saveFile.js";
+import { generateCubeTool } from "../lib/tools/generateCube.js";
+import { saveFileTool } from "../lib/tools/saveFile.js";
 
 const server = new McpServer({ name: "cube-local", version: "1.0.0" });
 

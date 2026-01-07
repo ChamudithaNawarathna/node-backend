@@ -4,7 +4,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const SERVER_PATH = path.resolve(__dirname, "server.js");
+const SERVER_PATH = path.resolve(__dirname, "server-local.js");
 
 async function main() {
   const transport = new StdioClientTransport({
